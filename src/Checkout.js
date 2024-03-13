@@ -53,7 +53,7 @@ const Checkout = () => {
         </div>       
     </div>
     <div className='checkout__right'>
-        <Subtotal/>
+        <Subtotal className = 'checkout__subtotal'/>
     </div>
   </div>
    

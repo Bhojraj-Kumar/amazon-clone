@@ -3,12 +3,20 @@
     flex-direction: column;
     justify-content: space-between;
     width: 300px;
+    /* min-width: 200px;     */
     height: 100px;
     padding: 20px;
     background-color: #f3f3f3;
     border: 1px solid #dddddd;
     border-radius: 3px;
 }
+
+@media screen and (max-width : 433px) {
+    .subtotal {
+      width : 200px;
+    }
+      
+  }
 
 .subtotal__gift {
     display: flex;
